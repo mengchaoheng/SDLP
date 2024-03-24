@@ -46,3 +46,14 @@ Output:
 
 1. Megiddo, N., 1984. Linear programming in linear time when the dimension is fixed. Journal of the ACM (JACM), 31(1), pp.114-127.
 2. Seidel, R., 1991. Small-dimensional linear programming and convex hulls made easy. Discrete & Computational Geometry, 6(3), pp.423-434.
+
+
+# Build
+```Console
+mkdir build && cd build
+
+cmake .. && make
+
+./sdlp_example 
+```
+
